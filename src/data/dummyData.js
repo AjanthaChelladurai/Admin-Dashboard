@@ -16,10 +16,13 @@ export const chartData = {
     { name: "Product A", sales: 240 },
     { name: "Product B", sales: 456 },
     { name: "Product C", sales: 300 },
+    { name: "Product D", sales: 600 },
+    { name: "Product E", sales: 500 },
   ],
   doughnut: [
     { name: "Completed", value: 300 },
     { name: "Pending", value: 100 },
     { name: "Cancelled", value: 50 },
+    { name: "Returned", value: 30},
   ],
 };

@@ -6,7 +6,7 @@ const Login = ({ setIsLoggedIn }) => {
 
   const handleLogin = (e) => {
     e.preventDefault();
-    setIsLoggedIn(true); // Accept any username/password
+    setIsLoggedIn(true); 
   };
 
   return (

@@ -4,7 +4,7 @@ import { closePopup } from "../features/chartPopup/chartPopupSlice";
 import { LineChart, Line, BarChart, Bar, PieChart, Pie, Cell, Tooltip, ResponsiveContainer } from "recharts";
 import { chartData } from "../data/dummyData";
 
-const COLORS = ["#00f6ff", "#9b59b6", "#ff4d6d"];
+const COLORS = ["#00f6ff", "#9b59b6", "#ff4d6d","#9dff00ff"];
 
 const ChartPopup = () => {
   const { isOpen, chartType } = useSelector((state) => state.popup);

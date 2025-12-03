@@ -5,7 +5,7 @@ import { LineChart, Line, BarChart, Bar, PieChart, Pie, Cell, Tooltip, Responsiv
 import { useDispatch } from "react-redux";
 import { openPopup } from "../features/chartPopup/chartPopupSlice";
 
-const COLORS = ["#00f6ff", "#9b59b6", "#ff4d6d"];
+const COLORS = ["#50e050ff", "#9b59b6", "#ff4d6d" ,"#00f6ffff"];
 
 const Dashboard = () => {
   const dispatch = useDispatch();
@@ -19,7 +19,7 @@ const Dashboard = () => {
         ))}
       </div>
 
-      {/* Charts */}
+    
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         {/* Line Chart */}
         <div className="bg-cardBg p-5 rounded-xl shadow-chartGlow cursor-pointer" onClick={() => dispatch(openPopup("line"))}>
